@@ -172,11 +172,14 @@ public class PlaceHolderFragment extends Fragment {
     }
 
     public void cardReaded(Car car) {
-        wheel1.setText(Integer.toString(car.getWheel1().getRadius()));
-        wheel2.setText(Integer.toString(car.getWheel2().getRadius()));
-        wheel3.setText(Integer.toString(car.getWheel3().getRadius()));
-        wheel4.setText(Integer.toString(car.getWheel4().getRadius()));
-        description.setText(car.getDescription());
+        if (car != null) {
+            wheel1.setText(Integer.toString(car.getWheel1().getRadius()));
+            wheel2.setText(Integer.toString(car.getWheel2().getRadius()));
+            wheel3.setText(Integer.toString(car.getWheel3().getRadius()));
+            wheel4.setText(Integer.toString(car.getWheel4().getRadius()));
+            description.setText(car.getDescription());
+        }
+
     }
 
     public void updateUI(int state) {

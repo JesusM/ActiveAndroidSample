@@ -27,11 +27,12 @@ public class PersistentAccess {
         if (savedCar != null) {
             savedCar = updateCar(car, savedCar);
         } else {
+            savedCar = car;
             Long wheelSavedId = saveWheel(savedCar.getWheel1());
             wheelSavedId = saveWheel(savedCar.getWheel2());
             wheelSavedId = saveWheel(savedCar.getWheel3());
             wheelSavedId = saveWheel(savedCar.getWheel4());
-            savedCar = car;
+
         }
         return savedCar.save();
     }
