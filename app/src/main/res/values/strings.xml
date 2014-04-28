@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActiveAndroidSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="car_info_title">Car info:</string>
+    <string name="car_info_description">Description</string>
+    <string name="car_info_description_sample">Insert the description</string>
+    <string name="wheel1_info_title">Wheel 1 radius:</string>
+    <string name="wheel2_info_title">Wheel 2 radius:</string>
+    <string name="wheel3_info_title">Wheel 3 radius:</string>
+    <string name="wheel4_info_title">Wheel 4 radius:</string>
+    <string name="wheel_info_hint">Wheel radius</string>
+    <string name="action_update">Update</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+
+</resources>
